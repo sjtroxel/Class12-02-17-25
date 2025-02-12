@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 12: Testing & Testing Frameworks/Jasmine
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <header id="header">Class 12: Testing & Testing Frameworks (Jasmine)<br>(Monday, 02/17/25)</header>
+        <br>
+    <h2 class="h2">Quick Exercise: Using jQuery!!</h2>
+        <br>
+    <p class="describe">Click the button to change this text!</p>
+        <br> 
+    <button class="js-change-text-button">Change Text!!</button>
+        <br>
+        
+
+    <script>
+        // jQuery function to change the text when the button is clicked
+        $(document).ready(function() {
+            $('.js-change-text-button').click(function() {
+            $('.describe').text('The text has been changed!');
+              });
+        });
+    </script>
+
+</body>
+</html>
